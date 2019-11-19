@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F10C0C</color>
+    <color name="colorPrimaryDark">#A20202</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="background">#A3A2A2</color>
+    <color name="colorsearch">#525151</color>
+    <color name="dotsnon">#999999</color>
+    <color name="transparan">#00FFFFFF</color>
+    <color name="abuabu">#9B9B9B</color>
+    <color name="abuabutrans">#54B6B4B4</color>
+    <color name="colordots">#202020</color>
+    <color name="hitam">#000000</color>
+    <color name="merah">#FF0000</color>
+</resources>

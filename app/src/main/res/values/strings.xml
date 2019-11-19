@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Youtube</string>
+
+
+    <string-array name="title">
+        <item>One Piece | Episode 1280</item>
+        <item>Naruto Vs Sasuke</item>
+        <item>Avatar, The Lagend of Aang</item>
+        <item>One Punch Man | Seasson 10</item>
+        <item>One Piece | Episode 1-780</item>
+    </string-array>
+
+    <string-array name="nama">
+        <item>Fadly Jaya</item>
+        <item>Rahmat Ilyas</item>
+        <item>Andi Abdillah</item>
+        <item>Muhammad Azwar Bahar</item>
+        <item>Mahfud Hidayat</item>
+    </string-array>
+
+    <string-array name="poster">
+        <item>@drawable/onepeace</item>
+        <item>@drawable/naruto</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/opm</item>
+        <item>@drawable/onepeace</item>
+
+    </string-array>
+
+    <string-array name="foto">
+        <item>@drawable/fadli</item>
+        <item>@drawable/rahmat</item>
+        <item>@drawable/abdillah</item>
+        <item>@drawable/azz</item>
+        <item>@drawable/map2</item>
+
+    </string-array>
+
+    <string-array name="title_subs">
+        <item>Tutorial Flutter</item>
+        <item>Web Back-End for Pemula</item>
+        <item>Belajar Laravel</item>
+        <item>Android Dev Design</item>
+        <item>Design UI/UX</item>
+    </string-array>
+
+    <string-array name="title_mail">
+        <item>Seseorang menyukai komentar anda: "Keren kak"</item>
+        <item>Ishaq Berkomentar: "Saya Suka ini"</item>
+        <item>Seseorang menyukai komentar anda: "Keren kak"</item>
+        <item>Alif Berkomentar: "Saya Suka ini"</item>
+        <item>Ilham Berkomentar: "Saya Suka ini"</item>
+    </string-array>
+
+    <string-array name="video">
+        <item>53 Videos</item>
+        <item>120 Videos</item>
+        <item>65 Videos</item>
+        <item>201 Videos</item>
+        <item>60 Videos</item>
+    </string-array>
+
+</resources>

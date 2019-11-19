@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9ebf0"
+    tools:context=".Activity.ProfileActivity">
+
+    <ImageView
+        android:src="@drawable/cv_azwar"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="70dp"
+        android:layout_height="match_parent"/>
+
+<!--    <ImageView-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_marginTop="-20dp"-->
+<!--        android:src="@drawable/fx" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:src="@drawable/myresume" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/foto_profil"-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="110dp"-->
+<!--        android:src="@drawable/foto_azwar" />-->
+
+<!--    <TextView-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@id/foto_profil"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Muhammad Azwar Bahar"-->
+<!--        style="@style/TextAppearance.AppCompat.Title"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/ll_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/btn_withe"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_home_abuabu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_trend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/btn_withe"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/api_abu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_subs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/btn_withe"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/subs_abu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/btn_withe"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/mail_abu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/btn_red"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/azz"
+                app:civ_border_color="@color/putih"
+                app:civ_border_width="2dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

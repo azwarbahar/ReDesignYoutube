@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9ebf0"
+    tools:context=".Activity.TrandingActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/fx" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/putih"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparan"
+            android:drawableLeft="@drawable/iconyt"
+            android:drawableRight="@drawable/ic_search"
+            android:drawablePadding="20dp"
+            android:focusable="false"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:singleLine="true"
+            android:textColor="@color/colorsearch" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/ll_list_trend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cv_search"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/tv_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:background="@drawable/bg_sub_tren"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="2dp"
+            android:text="Music"
+            android:textColor="@color/merah"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_gamig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/transparan"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="2dp"
+            android:text="Gaming"
+            android:textColor="@color/hitam"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/transparan"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="2dp"
+            android:text="News"
+            android:textColor="@color/hitam"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_movies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/transparan"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="2dp"
+            android:text="Movies"
+            android:textColor="@color/hitam"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_fashion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/transparan"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="2dp"
+            android:text="Fashion"
+            android:textColor="@color/hitam"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_trend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_list_trend"
+        android:layout_marginBottom="10dp" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_btm"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg"
+        android:layout_height="100dp"
+        android:weightSum="5"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/ll_home"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/btn_withe"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_home_abuabu"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_trend"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/btn_red"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/api_putih"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_subs"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/btn_withe"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/subs_abu"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mail"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/btn_withe"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/mail_abu"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_profil"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/btn_withe"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:civ_border_color="@color/merah"
+                app:civ_border_width="2dp"
+                android:src="@drawable/azz"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
